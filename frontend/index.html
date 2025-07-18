@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Whisker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 style="text-align:center;">Whisker</h1>
+  <p class="instructions">
+    Draw a digit (0–9) and press Submit. You’ll see that many cats. If the prediction seems off, try drawing the number larger, smaller, or more centered on the canvas.
+  <br></br>
+  <a href="https://github.com/saragarzou/whisker" target="_blank">Check it out on GitHub</a>
+
+
+  </p>
+  <div id="canvas_div">
+    <canvas id="canvas" width="280" height="280"></canvas>
+    <div class="button-row">
+      <button onclick="submitDrawing()">Submit</button>
+      <button onclick="clearCanvas()">Clear</button>
+    </div>
+    <div id="result"></div>
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
