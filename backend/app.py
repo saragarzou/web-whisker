@@ -5,7 +5,7 @@ import base64
 import io
 from PIL import Image
 
-from backend.nn import NeuralNetwork
+from .nn import NeuralNetwork
 
 model = NeuralNetwork((784, 128, 64, 10))
 model.load_weights("model_weights.npz")
