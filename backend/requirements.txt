@@ -3,5 +3,5 @@ numpy
 pillow
 scipy
 matplotlib
-tensorflow
+tensorflow==2.15.0
 flask-cors
